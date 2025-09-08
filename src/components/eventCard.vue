@@ -10,7 +10,8 @@ export default {
         title: { type: String, required: true },
         date: { type: String, required: true },
         time: { type: String, required: true },
-        description: { type: String, required: true }
+        description: { type: String, required: true },
+        index: { type: [String, Number], required: true }
     },
     computed: {
         shorttitle() {
@@ -24,6 +25,11 @@ export default {
             : this.description;
         }
     },
+    methods: {
+        goToDetails() {
+            this.$router.push({ name: "Event", params: { id: this.index } });
+        }
+    } 
 };
 </script>
 
@@ -45,7 +51,10 @@ export default {
                 </div>
             </div>
             <span class="mt-5">{{ shortdesc }}</span>
-            <button class="rounded-md bg-[#2E2A27] px-5 py-1 font-semibold mt-5 text-white">
+            <button 
+                class="rounded-md bg-[#2E2A27] px-5 py-1 font-semibold mt-5 text-white"
+                @click="goToDetails"
+            >
                 Zistiť viac
             </button>
         </div>

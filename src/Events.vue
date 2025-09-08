@@ -13,9 +13,9 @@ export default {
     return {
       events: [
         { title: "KódKemp UCM #1: Lepšia Univerzita", time: "9:00 - 18:00", description: "Prvý hackathon v semestri zameraný na vylepšenie digitálnych služieb pre študentov.", date: "28 OKT", interested: 25, organizer: "Default", place: "PMH05"},
+        { title: "Frontend Workshop", time: "9:00 - 18:00", description: "Prvý workshop v zimnom semestri zameraný na moderné frontend technológie.", date: "12 NOV", interested: 12, organizer: "Default", place: "PMH08"},
+        { title: "AI Meetup", time: "9:00 - 18:00", description: "Diskusia zameraná na na umelú inteligenciu a jej využitie v praxi.", date: "5 DEC", interested: 5, organizer: "Default", place: "PMH05"},
         { title: "KódKemp UCM #1: Lepšia Univerzitaaaaaaaaaaaaaa", time: "9:00 - 18:00", description: "Prvý hackathon v semestri zameraný na vylepšenie digitálnych služieb pre študentov.", date: "28 OKT", interested: 30, organizer: "Default", place: "H01"},
-        { title: "KódKemp UCM #1: Lepšia Univerzita", time: "9:00 - 18:00", description: "Prvý hackathon v semestri zameraný na vylepšenie digitálnych služieb pre študentov.", date: "17 OKT", interested: 12, organizer: "Default", place: "PMH08"},
-        { title: "KódKemp UCM #1: Lepšia Univerzita", time: "9:00 - 18:00", description: "Prvý hackathon v semestri zameraný na vylepšenie digitálnych služieb pre študentov.", date: "14 SEP", interested: 5, organizer: "Default", place: "PMH05"},
         { title: "KódKemp UCM #1: Lepšia Univerzita", time: "9:00 - 18:00", description: "Prvý hackathon v semestri zameraný na vylepšenie digitálnych služieb pre študentov.", date: "28 OKT", interested: 41, organizer: "Default", place: "H01"}
       ]
     }
