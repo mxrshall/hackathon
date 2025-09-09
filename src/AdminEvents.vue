@@ -27,11 +27,11 @@ const events = ref([
 </script>
 
 <template>
-  <div class="w-screen h-screen flex justify-center items-center">
+  <div class="w-full flex justify-center items-center">
     <Login v-if="!isLoggedIn" @login-success="handleLoginSuccess" />
-    <div v-else class="w-full h-screen flex">
+    <div v-else class="w-full flex">
       <AdminNavigation />
-      <div class="ml-[25%] w-9/12 h-screen bg-[#EFEFEF] p-10 flex flex-col items-center">
+      <div class="ml-[25%] w-3/4 min-h-screen bg-[#EFEFEF] p-10 flex flex-col items-center">
         <Title text="Správa udalostí" />
         <div
           v-for="(event, index) in events" 

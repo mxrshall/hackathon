@@ -46,7 +46,7 @@ export default {
             :loop="true"
             :style="swiperStyles"
           >
-            <SwiperSlide v-for="event in events" :key="event.id">
+            <SwiperSlide v-for="(event, index) in events.slice(0, 3)" :key="index">
               <EventCard
                 :index="index"
                 :title="event.title"
