@@ -5,7 +5,7 @@ export default {
       items: [
         { label: "Domov", icon: "bi-house-door-fill", path: "/"},
         { label: "Udalosti", icon: "md-daterange", path: "/events"},
-        { label: "Profil", icon: "fa-user-alt", path: "/"}
+        { label: "Profil", icon: "fa-user-alt", path: "/admin"}
       ]
     };
   }
